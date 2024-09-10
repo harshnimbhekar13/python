@@ -1,5 +1,5 @@
-a = 12
-b = 2
+a = 18
+b = 3
 addition = a + b
 print("Addition of ",a,"and",b,"is",addition)
 subtraction = a - b

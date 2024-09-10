@@ -1,17 +1,9 @@
-# Python Program to find the area of triangle
+base = float(input("Enter the length of the base of the triangle : "))
+height = float(input("Enter the height of the triangle : "))
+#Calculate the area of the triangle 
 
-a = 5
-b = 6
-c = 7
+area = 0.5* base * height 
 
-# Uncomment below to take inputs from the user
-# a = float(input('Enter first side: '))
-# b = float(input('Enter second side: '))
-# c = float(input('Enter third side: '))
+#Display the Result 
 
-# calculate the semi-perimeter
-s = (a + b + c) / 2
-
-# calculate the area
-area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
-print('The area of the triangle is %0.2f' %area)clear_session_cookies()
+print(f"The area of the triangle is :{area}")
